@@ -1,9 +1,12 @@
+import { AppBar } from './AppBar/AppBar';
 import { Layout } from './Layout/Layout';
 
 export const App = () => {
   return (
     <>
-      <Layout>test</Layout>
+      <Layout>
+        <AppBar />
+      </Layout>
     </>
   );
 };
