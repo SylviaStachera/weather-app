@@ -1,3 +1,9 @@
+import { Layout } from './Layout/Layout';
+
 export const App = () => {
-  return <div>React homework template</div>;
+  return (
+    <>
+      <Layout>test</Layout>
+    </>
+  );
 };
