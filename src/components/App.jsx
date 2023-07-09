@@ -1,4 +1,5 @@
 import { AppBar } from './AppBar/AppBar';
+import { Footer } from './Footer/Footer';
 import { Layout } from './Layout/Layout';
 
 export const App = () => {
@@ -6,6 +7,7 @@ export const App = () => {
     <>
       <Layout>
         <AppBar />
+        <Footer />
       </Layout>
     </>
   );

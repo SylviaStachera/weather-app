@@ -1,1 +1,22 @@
-export 
+.footer {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.187);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.additional-space {
+  padding-right: 5px;
+}
+
+.link {
+  color: black;
+}
